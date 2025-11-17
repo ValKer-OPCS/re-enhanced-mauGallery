@@ -1,3 +1,49 @@
+# re-enhanced-mauGallery
+
+[forked from gustaveWPM/enhanced-mauGallery](https://github.com/gustaveWPM/enhanced-mauGallery)
+
+Bootstrap 5 Gallery, vanilla JS.
+
+## New features
+
+- Now display original image when openning the gallery modal if using srcset & size on image
+
+
+## Exemple 
+
+```html
+<img 
+    data-gallery-tag="Concert" 
+    class="mau gallery-item"
+	srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-270w.webp 270w, ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-320w.webp 320w, ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-440w.webp 440w"
+	sizes="(max-width: 270px) 270px, (max-width: 320px) 320px, (min-width: 321px) 440px"
+	src="./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+	alt="Photo de la scene d'un concert depuis la foule">
+```
+
+## Two imports scenarios
+
+```html
+<script src="./assets/maugalleryLauncher.js" async></script>
+```
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="./assets/maugallery.js" defer></script>
+```
+
+### Notes
+
+Modified the project for my own use
+Still include all features from mauGallery and enhanced-mauGallery
+
+
+### Demo
+
+[https://valker-opcs.github.io/re-enhanced-mauGallery/](https://valker-opcs.github.io/re-enhanced-mauGallery/)
+
+## Original README.md
+
 # mau Gallery (updated to Bootstrap 5)
 
 [forked from bakedbird/mauGallery](https://github.com/bakedbird/mauGallery)

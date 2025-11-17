@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2025 re-Enhanced mauGallery (by ValKer <github.com/ValKer-OPCS>)  
 Copyright (c) 2023 Enhanced mauGallery (by GustaveWPM <github.com/gustaveWPM>)  
 Copyright (c) 2018 mauGallery (by Eleftherios Psitopoulos <github.com/bakedbird>)
 
