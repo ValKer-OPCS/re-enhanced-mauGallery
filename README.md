@@ -15,7 +15,9 @@ Bootstrap 5 Gallery, vanilla JS.
 <img 
     data-gallery-tag="Concert" 
     class="mau gallery-item"
-	srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-270w.webp 270w, ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-320w.webp 320w, ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-440w.webp 440w"
+	srcset="./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-270w.webp 270w, 
+            ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-320w.webp 320w, 
+            ./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash-440w.webp 440w"
 	sizes="(max-width: 270px) 270px, (max-width: 320px) 320px, (min-width: 321px) 440px"
 	src="./assets/images/gallery/concerts/aaron-paul/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
 	alt="Photo de la scene d'un concert depuis la foule">
